@@ -29,6 +29,7 @@ export function clock(invocation: CustomFunctions.StreamingInvocation<string>): 
 
 /**
  * Returns the current time.
+ * @customfunction
  * @returns String with the current time formatted for the current locale.
  */
 export function currentTime(): string {
